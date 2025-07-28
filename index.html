@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Body - Anatameow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Patrick Hand', cursive;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background-color: #d9cde2;
+            padding: 10px 40px;
+            color: white;
+            border-bottom: 2px dashed #ffffff; /* Simplified wavy border */
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 24px;
+        }
+
+        .nav-left {
+            text-align: center;
+            font-size: 28px;
+            line-height: 1.1;
+        }
+
+        .nav-center {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo-container img {
+            width: 100px;
+            height: auto;
+        }
+        
+        .logo-container p {
+            margin: -10px 0 0 0;
+            font-size: 18px;
+        }
+
+        .nav-right {
+            text-align: right;
+            font-size: 16px;
+        }
+        
+        .nav-right img {
+            width: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .main-content {
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+
+        .systems-grid {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .system-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 200px;
+        }
+
+        .system-card img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .system-card p {
+            font-size: 22px;
+            margin-top: 15px;
+            line-height: 1;
+        }
+
+        /* Text colors for captions */
+        .color-nervous { color: #bca9d3; }
+        .color-circulatory { color: #e88989; }
+        .color-respiratory { color: #97d4d9; }
+        .color-digestive { color: #a4c99c; }
+        .color-muscular { color: #e999ac; }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-left">Explore<br>the<br>Body</div>
+            
+            <div class="nav-center">
+                <span>Systems</span>
+                <span>Psych</span>
+                <div class="logo-container">
+                    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2024/07/7M94a8p.png" alt="Anatameow Logo">
+                    <p>anatameow</p>
+                </div>
+                <span>Guides</span>
+                <span>Blog</span>
+                <span>Resources</span>
+            </div>
+
+            <div class="nav-right">
+                <div>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAfRJREFUOE+d071rFFEUxvHfmdm7t/tiiS1EhFhYGCT2Kyx8hYV/QkSsBBuL4FmMjY1fQkSsBPEGK9soiCCIe9lFdi8fbmdnx/l2Y+6gq5zLDOfc5z4MWAyXgRRYBJbBIxjdBL2gC5gDN8A5sA2MwAkYBSbT0eM59tYFmAX2gSNoE9c5O6gWRqEb2AWegeM04S8wDc7DATgBjoHdaB3Oge8wDtYCr+APOJkR2P8T2APgHOwGztB+SAb2gcfgL9gGrgCdsASU8P4P2ArsgaM05S1wHpwC18E9g208ABdgEvgENuE0yfwFjgJ/wSwwDqwA1+AF+ANOS4M1cAmcAx/gJdgD3oA7IBV6gU9gLbrPAnYk/gCswClQAy7BLfAE3AGtSxvwEbwCT8EyMA+MBy/BVfAGvAEngV1gDbgGzlPjA3gEzmP/snAIvAEnkX2sAr+B3eB/OEV2A9eg420Bv4Er4Ap4Bp7BfYj9E/gKPoA/4Bq4BF6BrvYTeE0yv/YD+AbO0U1rQA64A5bBR/AIXAZ7QBOYAQ/AHfAEzKPg/kngGngBTgI7wAzQBnqAA+ARGAWW4X75Gg/Ac/APnER2tMJu4B8YB1bhv8BtcB48h4/gNdgL1sA6sAWcBVc5/wGqY0vD8P8WlAAAAABJRU5ErkJggg==" alt="Instagram Icon">
+                    <span>Anatameow</span>
+                </div>
+                <div>Anatameow@gmail.com</div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="systems-grid">
+            <div class="system-card">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2024/07/F91HlKk.png" alt="Diagram of the Nervous System">
+                <p class="color-nervous">Nervous<br>System</p>
+            </div>
+            <div class="system-card">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2024/07/fC11bC9.png" alt="Diagram of the Circulatory System">
+                <p class="color-circulatory">Circulatory<br>System</p>
+            </div>
+            <div class="system-card">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2024/07/yJtQ8nI.png" alt="Diagram of the Respiratory System">
+                <p class="color-respiratory">Respiratory<br>System</p>
+            </div>
+            <div class="system-card">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2024/07/Lh2W1tK.png" alt="Diagram of the Digestive System">
+                <p class="color-digestive">Digestive<br>System</p>
+            </div>
+            <div class="system-card">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2024/07/9y23yG0.png" alt="Diagram of the Muscular System">
+                <p class="color-muscular">Muscular<br>System</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
