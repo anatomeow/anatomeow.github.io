@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nervous System - Anatomeow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/more-sugar" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body class="nervous-page">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="detail-container">
+            <!-- Icon Menu -->
+            <div class="icon-menu-container">
+                <button class="scroll-arrow left hidden" id="iconScrollLeft" onclick="scrollIconMenu('left')">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="scroll-arrow right hidden" id="iconScrollRight" onclick="scrollIconMenu('right')">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+                <div class="icon-menu-wrapper" id="iconMenuWrapper">
+                    <div class="icon-menu" id="nervousIconMenu">
+                        <!-- Icon menu will be built dynamically from JSON -->
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="detail-title">Nervous System</h1>
+            <p class="detail-subtitle">The nervous system is the body’s main communication network, responsible for coordinating actions, processing sensory information, and maintaining internal balance.</p>
+                        
+            <!-- Main Image -->
+            <div class="main-image-container">
+                <img id="nervousMainImage" class="main-image" src="images/nervous/nervous_05.PNG" alt="Nervous System Detail">
+            </div>
+            
+            <!-- Text Menu -->
+            <div class="text-menu-container">
+                <button class="scroll-arrow left hidden" id="textScrollLeft" onclick="scrollTextMenu('left')">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="scroll-arrow right hidden" id="textScrollRight" onclick="scrollTextMenu('right')">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+                <div class="text-menu-wrapper" id="textMenuWrapper">
+                    <div class="text-menu" id="nervousTextMenu">
+                        <div class="text-menu-item active" onclick="selectTextMenu(0)">Overview</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Content Section -->
+            <div class="content-section" id="nervousContent">
+                <h3>Brain Overview</h3>
+                <p>The brain is the most complex organ in the human body, weighing about 3 pounds and containing approximately 86 billion neurons. It serves as the command center for the entire nervous system, processing sensory information, controlling motor functions, and enabling higher-level cognitive processes such as thinking, learning, and memory. The brain is divided into major regions including the cerebrum, cerebellum, and brainstem, each responsible for specific functions essential for life.</p>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <a href="index.html" class="btn-primary-custom">Back to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script>
+        // Load nervous system data
+        async function loadNervousData() {
+            try {
+                const response = await fetch('data/nervous-data.json');
+                const data = await response.json();
+                SystemPage.init('nervous', data);
+                console.log('Nervous data loaded successfully');
+
+                buildIconMenu();
+                selectIcon(0);
+            } catch (error) {
+                console.error('Error loading nervous data:', error);
+            }
+        }
+
+        // Initialize page
+        async function initPage() {
+            await initSystemPage('nervous', loadNervousData);
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPage);
+        } else {
+            initPage();
+        }
+    </script>
+</body>
+</html>

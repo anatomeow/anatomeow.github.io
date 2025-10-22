@@ -1,0 +1,118 @@
+{
+  "Overview": {
+    "iconImage": "book",
+    "largeImage": "images/digestive.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Digestive System",
+        "text": "The digestive system is responsible for breaking down the food we eat into nutrients that can be absorbed and utilized by the body. It transforms carbohydrates, fats, and proteins into smaller molecules through mechanical and chemical processes. These nutrients are then absorbed into the bloodstream and transported to cells for energy, repair, and growth. The digestive system also plays a key role in waste elimination, ensuring that indigestible materials are expelled efficiently. <br/>This system consists of a long, continuous tube—called the alimentary canal or gastrointestinal (GI) tract—along with a set of accessory organs that contribute vital enzymes, hormones, and fluids to aid digestion."
+      }
+    ]
+  },
+  "Alimentary Canal": {
+    "iconImage": "mouth",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Mouth and Oral Cavity", "Teeth and Mastication", "Tongue and Taste", "Salivary Glands and Saliva", "Lips, Cheeks, and Oral Cavity Boundaries"],
+    "content": [
+      {
+        "title": "Mouth and Oral Cavity",
+        "text": "The oral cavity is the first section of the digestive system and plays a critical role in mechanical digestion, chemical digestion, taste, speech, and swallowing. It is made up of several components that work together to begin the digestive process. "
+      },
+      {
+        "title": "Teeth and Mastication",
+        "text": "The teeth are responsible for breaking food into smaller pieces through the process of mastication (chewing). Adults typically have 32 teeth, divided into: <ul><li><b>Incisors</b>: cutting </li><li><b>Canines</b>: testing </li><li><b>Premolars and molars</b>: grinding </li></ul>Teeth are anchored in the maxilla and mandible bones. Their roles in physically processing food are essential for increasing surface area and preparing food for enzymatic digestion."
+      },
+      {
+        "title": "Tongue and Taste",
+        "text": "The tongue is a muscular organ that assists in moving food during chewing and pushing it toward the back of the mouth for swallowing. But beyond motion, the tongue is also a sensory hub. Its surface is covered in different types of papillae, many of which house taste buds capable of detecting sweet, salty, sour, bitter, and umami flavors. The underside and base of the tongue include the lingual tonsils, part of the immune system. "
+      },
+      {
+        "title": "Salivary Glands and Saliva",
+        "text": "Three major salivary glands produce saliva, which lubricates food and begins chemical digestion: <ul><li><b>Parotid</b> glands: Located near the cheeks, these glands secrete watery saliva rich in amylase, an enzyme that begins breaking down carbohydrates. </li><li><b>Submandibular</b> glands: Located under the jaw, they produce a mix of watery and mucus-rich saliva. </li><li><b>Sublingual</b> glands: Located beneath the tongue, they primarily secrete mucus. </li></ul>Saliva lubricates food, making it easier to swallow, and contains enzymes and antibacterial substances such as:  <ul><li><b>Salivary amylase</b>: breaks down starch </li><li><b>Lysozyme</b>: antibacterial enzyme </li><li><b>Mucins</b>: lubrication </li></ul>"
+      },
+      {
+        "title": "Lips, Cheeks, and Oral Cavity Boundaries",
+        "text": "The lips and cheeks help keep food inside the mouth while chewing and assist with speech and expression. The inner cheek contains buccinator muscles, which help guide food onto the chewing surfaces. <br/> The palate forms the roof of the mouth. The hard palate, made of bone, gives a firm surface for the tongue to press food against. Behind it is the soft palate, which is muscular and flexible. During swallowing, the soft palate rises to block the nasal passage and prevent food from entering the nose. The uvula, which hangs from the soft palate, helps with this function."
+      }
+    ]
+  },
+  "Pharynx and Esophagus": {
+    "iconImage": "pharynx",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview", "Pharynx", "Esophagus"],
+    "content": [
+      {
+        "title": "Overview",
+        "text": "After food leaves the mouth, it enters the pharynx, a muscular tube that serves as a shared passageway for both the respiratory and digestive systems. From there, it passes into the esophagus, which delivers it to the stomach. "
+      },
+      {
+        "title": "Pharynx",
+        "text": "The pharynx is divided into three sections: the nasopharynx, oropharynx, and laryngopharynx. For digestion, the oropharynx and laryngopharynx are most relevant.<ul><li>The oropharynx lies behind the mouth and receives the bolus (chewed food) after it is pushed backward by the tongue.</li><li> As the bolus continues downward, it enters the laryngopharynx, located just above the entrance to the esophagus and the larynx.</li></ul> During swallowing, the epiglottis—a flap of cartilage—folds down to cover the trachea, preventing food or liquid from entering the airway. This reflex action ensures that food is directed safely into the digestive tract, rather than into the lungs. "
+      },
+      {
+        "title": "Esophagus",
+        "text": "The esophagus is a muscular tube about 25 centimeters (10 inches) long, extending from the pharynx to the stomach. It passes behind the trachea and heart and enters the abdominal cavity through the diaphragm at the <b>esophageal hiatus</b>. <br/> The esophagus doesn’t rely on gravity alone to move food. Instead, it uses peristalsis—a series of coordinated, wave-like muscle contractions that propel the bolus downward. These contractions are involuntary and ensure that food reaches the stomach, regardless of the body's position. <br/> At the lower end of the esophagus is the lower esophageal sphincter (LES), sometimes called the cardiac sphincter. This ring of smooth muscle stays closed most of the time, opening only when food needs to enter the stomach. Its role is to prevent stomach acid and contents from flowing backward—a process known as acid reflux when it malfunctions. "
+      }
+    ]
+  },
+  "Stomach": {
+    "iconImage": "stomach",
+    "largeImage": "images/digestive/digestive_06.png",
+    "textMenuItems": ["Stomach"],
+    "content": [
+      {
+        "title": "Stomach",
+        "text": "The stomach is a muscular, J-shaped organ located in the upper left abdomen, just beneath the diaphragm. It serves as a temporary holding chamber where food is mixed with gastric secretion to form a semi-liquid substance called <b>chyme</b>. <br/> The stomach is divided into several distinct regions. The <b>cardia</b> is the entryway where the esophagus connects to the stomach. Just above it is the fundus, a dome-shaped area that often holds swallowed air. The largest region is the <b>body</b>, which acts as the main site for mixing and churning food. Toward the lower end, the pyloric antrum leads into the pyloric canal, which narrows and ends at the pyloric sphincter—a muscular valve that controls the passage of chyme into the <b>small intestine</b>. <br/> The stomach’s inner surface is lined with rugae, folds in the <b>mucosal layer</b> that allow the stomach to expand when full. Beneath this layer lies the muscularis externa, made up of three layers of smooth muscle (longitudinal, circular, and oblique) that work together to churn and mix food. The serosa forms the outer covering, and the lumen is the internal cavity where digestion occurs. <br/> <b>Gastric glands</b> in the stomach lining secrete hydrochloric acid, pepsinogen—which is converted to the enzyme pepsin—and mucus. These substances help break down proteins and protect the stomach from self-digestion. "
+      }
+    ]
+  },
+  "Intestines": {
+    "iconImage": "colon",
+    "largeImage": "images/digestive/digestive_01.png",
+    "textMenuItems": ["Small Intestine", "Large Intestine"],
+    "content": [
+      {
+        "title": "Small Intestine",
+        "text": "The small intestine is the primary site of nutrient absorption. It is a long, coiled tube—about 6 meters (20 feet) in length—divided into three parts: the duodenum, jejunum, and ileum. <ul><li><b>Duodenum</b>: The duodenum is the first section and receives chyme from the stomach, along with bile from the liver and digestive enzymes from the pancreas. Here, acidic chyme is neutralized, and chemical digestion begins in earnest. Its C-shaped curve wraps around the head of the pancreas. </li><li><b>Jejunum and Ileum</b>: The jejunum is the middle section, where most nutrient absorption occurs through its highly folded lining filled with villi and microvilli, increasing the surface area. The ileum is the longest and final segment, responsible for absorbing vitamin B, bile salts, and anything not absorbed earlier. It ends at the ileocecal valve, which regulates entry into the large intestine. </li></ul>"
+      },
+      {
+        "title": "Large Intestine",
+        "text": "The large intestine begins at the cecum, a pouch-like structure where the small intestine empties. Attached to it is the vermiform appendix, a narrow tube once thought to be vestigial but now known to have immune functions. <br/> From there, the colon travels upward as the ascending colon, crosses the abdomen as the transverse colon, descends along the left side as the descending colon, and finally curves into the sigmoid colon, which leads to the rectum and anal canal. Waste is stored in the rectum until it si expelled through the anus. <br/> The colon does not have villi like the small intestine, but its smooth mucosal surface is adapted for water absorption and mucus secretion to ease stool movement. "
+      }
+    ]
+  },
+  "Liver": {
+    "iconImage": "liver",
+    "largeImage": "images/digestive/digestive_03.png",
+    "textMenuItems": ["Liver"],
+    "content": [
+      {
+        "title": "Accessory Organs of Digestion - Liver",
+        "text": "The liver is divided into two main lobes: the larger right lobe and the left lobe. Additionally, the caudate lobe and quadrate lobe are visible from the underside. The liver is held in place by several ligaments, including the falciform ligament—which separates the right and left lobes—and the teres ligament—a remnant of the fetal umbilical vein. <br/> The porta hepatitis is the liver’s gateway, where the portal vein, the proper hepatic artery, and the common bile duct enter or exit. Blood from the digestive organs is carried to the liver via the portal vein, while oxygenated blood arrives through the hepatic artery. After filtering, blood exits through the hepatic veins into the inferior vena cava. <br/> Bile produced by liver cells is drained through small ducts that eventually merge into the common hepatic duct, which connects to the bile ducts of the gallbladder and pancreas. "
+      }
+    ]
+  },
+  "Gallbladder": {
+    "iconImage": "gallbladder",
+    "largeImage": "images/digestive/digestive_04.png",
+    "textMenuItems": ["Gallbladder"],
+    "content": [
+      {
+        "title": "Accessory Organs of Digestion - Gallbladder",
+        "text": "The gallbladder is a small, pear-shaped organ located beneath the liver. Its role is to store and concentrate bile, which is released into the small intestine to help emulsify fats during digestion. Bile flows from the liver through the common hepatic duct, which merges with the cystic duct from the gallbladder to form the common bile duct. This duct then joins the pancreatic duct and enters the duodenum at the hepatopancreatic ampulla (ampulla of Vater), where a muscular valve known as the sphincter of Oddi regulates bile release."
+      }
+    ]
+  },
+  "Pancreas": {
+    "iconImage": "pancreas",
+    "largeImage": "images/digestive/digestive_05.png",
+    "textMenuItems": ["Pancreas"],
+    "content": [
+      {
+        "title": "Accessory Organs of Digestion - Pancreas",
+        "text": "The pancreas is an elongated, leaf-shaped gland located behind the stomach. It has both endocrine and exocrine functions. <ul><li><b>Digestive (Exocrine) Function</b>: The majority of the pancreas is made up of acinar cells, which produce digestive enzymes that break down proteins, fats, and carbohydrates. These enzymes are carried by the pancreatic duct, which joins the common bile duct and empties into the duodenum. </li><li><b>Endocrine Function</b>: Scattered throughout the pancreas are clusters called pancreatic islets (Islets of Langerhans), which secrete hormones like insulin and glucagon into the bloodstream to regulate blood sugar levels. </li><li><b>Blood Supply and Adjacent Structures</b>: The splenic artery, a branch of the celiac trunk, supplies much of the pancreas with oxygenated blood. The pancreas lies near the spleen, which is often included in anatomical discussions because of its proximity. "
+      }
+    ]
+  }
+}

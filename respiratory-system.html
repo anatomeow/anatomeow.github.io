@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respiratory System - Anatomeow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/more-sugar" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body class="respiratory-page">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="detail-container">
+            <!-- Icon Menu -->
+            <div class="icon-menu-container">
+                <button class="scroll-arrow left hidden" id="iconScrollLeft" onclick="scrollIconMenu('left')">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="scroll-arrow right hidden" id="iconScrollRight" onclick="scrollIconMenu('right')">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+                <div class="icon-menu-wrapper" id="iconMenuWrapper">
+                    <div class="icon-menu" id="respiratoryIconMenu">
+                        <!-- Icon menu will be built dynamically from JSON -->
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="detail-title">Respiratory System</h1>
+            <p class="detail-subtitle">The respiratory system’s primary function is to facilitate the exchange of gases—oxygen is brought into the body to support cellular metabolism, and carbon dioxide.</p>
+                        
+            <!-- Main Image -->
+            <div class="main-image-container">
+                <img id="respiratoryMainImage" class="main-image" src="images/respiratory.PNG" alt="Respiratory System Detail">
+            </div>
+            
+            <!-- Text Menu -->
+            <div class="text-menu-container">
+                <button class="scroll-arrow left hidden" id="textScrollLeft" onclick="scrollTextMenu('left')">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="scroll-arrow right hidden" id="textScrollRight" onclick="scrollTextMenu('right')">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+                <div class="text-menu-wrapper" id="textMenuWrapper">
+                    <div class="text-menu" id="respiratoryTextMenu">
+                        <div class="text-menu-item active" onclick="selectTextMenu(0)">Overview</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Content Section -->
+            <div class="content-section" id="respiratoryContent">
+                <h3>Lung Structure</h3>
+                <p>The lungs are paired organs located in the thoracic cavity, protected by the rib cage. Each lung is cone-shaped with an apex at the top and a base resting on the diaphragm. The right lung is slightly larger and divided into three lobes, while the left lung has two lobes to accommodate the heart. The lungs are spongy and elastic, containing airways (bronchi and bronchioles) that branch like a tree, ending in tiny air sacs called alveoli. The entire respiratory surface area of the lungs is approximately 70 square meters—about the size of a tennis court—maximizing the area available for gas exchange.</p>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <a href="index.html" class="btn-primary-custom">Back to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script>
+        // Load respiratory system data
+        async function loadRespiratoryData() {
+            try {
+                const response = await fetch('data/respiratory-data.json');
+                const data = await response.json();
+                SystemPage.init('respiratory', data);
+                console.log('Respiratory data loaded successfully');
+
+                buildIconMenu();
+                selectIcon(0);
+            } catch (error) {
+                console.error('Error loading respiratory data:', error);
+            }
+        }
+
+        // Initialize page
+        async function initPage() {
+            await initSystemPage('respiratory', loadRespiratoryData);
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPage);
+        } else {
+            initPage();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+{ "Overview": {
+    "iconImage": "book",
+    "largeImage": "images/circulatory.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Circulatory System",
+        "text": "The circulatory system is the body’s internal transport network, responsible for moving blood, nutrients, oxygen, carbon dioxide, hormones, and other essential substances to and from cells. It plays a critical role in homeostasis, thermoregulation, immune defense, and tissue repair. This system consists of the heart, blood vessels, and blood. It operates in two major circuits: the pulmonary circulation—which exchanges gases in the lungs—and the systemic circulation—which delivers oxygenated blood throughout the body. At the center of the system is the heart, a muscular organ that works as a dual pump. Blood vessels act as the roadways, and blood functions as the transport medium. Together, they maintain the constant circulation required to keep cells alive and functioning."
+      }
+    ]
+  },  
+  "Heart & Valves": {
+    "iconImage": "heart-organ",
+    "largeImage": "images/circulatory/circulatory_03.png",
+    "textMenuItems": ["Overview", "Valves", "Cardiac Conduction System"],
+    "content": [
+      {
+        "title": "Overview",
+        "text": "The heart is a four-chambered organ located in the mediastinum, slightly left of center in the thoracic cavity. It is surrounded by a protective sac called the pericardium, which consists of two layers: the fibrous pericardium (outer tough layer) and the serous pericardium (inner layer, much up of the parietal and visceral layers). Between the serous layers lies the pericardial cavity, which contains a small amount of fluid to reduce friction during heartbeats.<br/>Internally, the heart is divided into:<ul><li><b>Two atria</b> (right atrium and left atrium): receive blood returning to the heart.</li><li><b>Two ventricles</b> (right ventricle and left ventricle): pump blood away from the heart. </li></ul>The interatrial septum separates the atria, while the interventricular septum separates the ventricles. The atria have thin walls and serve primarily as receiving chambers, while the ventricles are more muscular—especially the left ventricle, which most pump blood through the entire body. "
+      },
+      {
+        "title": "Valves",
+        "text": "The heart contains four valves that ensure unidirectional flow of the blood:<ul><li><b>Tricuspid valve</b> (right atrioventricular valve): between the right atrium and right ventricle.</li><li><b>Pulmonary semilunar valve</b>: between the right ventricle and pulmonary trunk.</li><li><b>Bicuspid (mitral) valve</b> (left atrioventricular valve): between the left atrium and left ventricle. </li><li><b>Aortic semilunar valve</b>: between the left ventricle and the ascending aorta.</li></ul>Each valve is anchored by chordae tendineae attached to papillary muscles, which help prevent prolapse during ventricular contraction. "
+      },
+      {
+        "title": "Cardiac Conduction System",
+        "text": "The heart relies on generated electrical impulses through an internal conduction system. This specialized network of pacemaker cells coordinates the timing of each heartbeat, ensuring that the atria contract slightly before the ventricles and that the blood flows efficiently through the heart and out to the lungs and body. <br/> The conduction system begins in the upper right atrium and spreads through the heart.<url><li><b>Sinoatrial (SA) Node</b>: Known as the natural pacemaker of the heart, the SA node is a small cluster of autorhythmic cells located in the upper right atrium near the opening of the superior vena cava. It generates electrical impulses at regular intervals (around 60-100 times per minute at rest), initiating each heartbeat. The signal from the SA node spreads through the walls of both atria, causing them to contract and push blood into the ventricles. </li></li> <b>Atrioventricular (AV) Node</b>: Located at the junction between the atria and ventricles (near the floor of the right atrium), the AV node receives the signal from the atria and briefly delays it. This pause ensures the ventricles have time to fill before they contract—a vital step for efficient pumping. </li><li> <b>Bundle of His (AV Bundle)</b>: This slender bundle of conducting fibers travels through the interventricular septum. It’s the only electrical connection between the atria and ventricles, and it rapidly carries the signal downward toward the apex of the heart. </li><li> <b> Right and Left Bundle Branches</b>: These branches split off from the bundle of His and descend along the interventricular septum. They carry the signal toward the lower parts of the heart, preparing the ventricles for contraction. </li><li> <b>Purkinje Fibers</b>: These thin fibers branch from the bundle of branches and fan out through the walls of both ventricles. They distribute the electrical impulse rapidly, causing the ventricles to contract nearly simultaneously from the apex upward—squeezing blood efficiently toward the arteries. </li></ul>"
+      }
+    ]
+  },
+  "Chambers & Blood Flow": {
+    "iconImage": "flow",
+    "largeImage": "images/circulatory/circulatory_01.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Chambers and Blood Flow",
+        "text": "Deoxygenated blood returns to the right atrium via the superior and inferior venae cavae. It flows through the tricuspid valve into the right ventricle, which contracts and sends it through the pulmonary valve into the pulmonary trunk, and then to the lungs via the left and right pulmonary arteries. <br/> In the lungs, blood becomes oxygenated and returns to the left atrium via the pulmonary veins. From here, it travels through the bicuspid valve into the left ventricle, which then pumps it through the aortic valve into the aorta, distributing it throughout the body."
+      }
+    ]
+  },
+  "Blood Vessels": {
+    "iconImage": "blood-vessel",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview", "Arteries", "Capillaries", "Veins"],
+    "content": [
+      {
+        "title": "Overview",
+        "text": "Blood vessels form a continuous, branching pathway that carries blood to and from every cell. While they’re often discussed as a group, arteries, veins, and capillaries have distinct roles, structures, and behaviors in circulation. "
+      },
+      {
+        "title": "Arteries",
+        "text": "Arteries are strong, muscular vessels that carry blood away from the heart. They operate under high pressure, especially those closest to the heart, and their elastic walls help absorb the force of the heartbeat.<ul><li><b>Elastic arteries</b> (like the aorta): stretch during systole and recoil during diastole, helping maintain blood pressure. </li><li><b>Muscular arteries</b>: distribute blood to specific organs and regions, adjusting diameter to regulate flow. </li><li><b>Arterioles</b>: the smallest branches of arteries; they control blood entry into capillaries through vasodilation and vasoconstriction. </li></ul>"
+      },
+      {
+        "title": "Capillaries",
+        "text": "Capillaries are the smallest and thinnest blood vessels, forming dense networks between arterioles and venules. Their thin, one-cell-thick walls allow gases, nutrients, and waste products to pass freely between blood and tissues.<ul><li><b>Continuous capillaries</b>: tightly sealed and found in most tissues, like muscle and the brain. </li><li><b>Fenestrate capillaries</b>: have pores to allow fluid exchange, common in kidneys and endocrine glands. </li><li><b>Sinusoidal capillaries</b>: wide and leaky, allowing large molecules and cells through—found in the liver, spleen, and bone marrow.</li></ul> "
+      },
+      {
+        "title": "Veins",
+        "text": "Veins return blood toward the heart. The pressure in veins is much lower than in arteries, so many veins (especially in the limbs) have valves to prevent backflow. <ul><li><b>Venules</b>: small vessels that collect blood from capillary beds.</li><li><b>Medium Veins</b>: include those with valves and visible walls, such as those in arms and legs. </li><li><b>Large veins</b>: include the superior vena cava and inferior vena cava; they return blood from the body’s upper and lower halves, respectively.</li></ul>"
+      }
+    ]
+  },
+  "Circulatory Pathways": {
+    "iconImage": "circulatory",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overviewe", "Pulmonary Circulation", "Systemic Circulation", "Coronary Circulation"],
+    "content": [
+      {
+        "title": "Overview",
+        "text": "The heart supports two major circuits that operate simultaneously—the pulmonary circuit, which oxygenates blood in the lungs, and the systemic circuit, which delivers that oxygenated blood to the body’s tissues and organs. "
+      },
+      {
+        "title": "Pulmonary Circulation",
+        "text": "This circuit begins in the right ventricle, which pumps deoxygenated blood to the lungs via the pulmonary trunk and arteries. In the lungs, gas exchange occurs, and oxygen-rich blood returns to the left atrium via pulmonary veins."
+      },
+      {
+        "title": "Systemic Circulation",
+        "text": "Oxygenated blood is pumped from the left ventricle into the aorta, then travels through arteries to the entire body. After delivering oxygen and picking up waste, the deoxygenated blood returns to the right atrium through the venae cavae."
+      },
+      {
+        "title": "Coronary Circulation",
+        "text": "The coronary arteries (right and left) branch from the base of the aorta to supply to myocardium (heart muscle) with oxygen-rich blood. Cardiac veins drain deoxygenated blood into the coronary sinus, which empties into the right atrium. "
+      }
+    ]
+  },
+  "Blood": {
+    "iconImage": "blood-drop",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Blood",
+        "text": "Blood is a complex tissue that plays a critical role in transport, defense, and regulation. It consists of cellular components suspended in plasma and constantly circulates through vessels, adapting to the body’s needs. <ul><li><b>Plasma</b>: makes up about 55% of total blood volume. It's mostly water, but also contains proteins (like albumin, globulins, and fibrinogen), nutrients, electrolytes, hormones, and waste products.</li><li><b>Red Blood Cells (erythrocytes)</b>: transport oxygen using the iron-rich protein hemoglobin. These cells are biconcave and lack nuclei, optimizing their surface area for gas exchange.</li><li><b>White Blood Cells (leukocytes)</b>: defend against pathogens and foreign invaders. Types include:<ul><li>Neutrophils (phagocytes)</li><li>Lymphocytes (B and T cells)</li><li>Monocytes, eosinophils, and basophils each with specialized immune roles.</li></ul></li><li><b>Platelets (thrombocytes)</b>: small, cell fragments that initiate clotting. When a blood vessel is damaged, platelets gather and release chemicals that trigger the formation of a clot to stop bleeding. </li></ul>"
+      }
+    ]
+  }
+}

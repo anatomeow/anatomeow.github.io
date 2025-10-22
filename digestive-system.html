@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digestive System - Anatomeow</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/more-sugar" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body class="digestive-page">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="detail-container">            
+            <!-- Icon Menu -->
+            <div class="icon-menu-container">
+                <button class="scroll-arrow left hidden" id="iconScrollLeft" onclick="scrollIconMenu('left')">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="scroll-arrow right hidden" id="iconScrollRight" onclick="scrollIconMenu('right')">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+                <div class="icon-menu-wrapper" id="iconMenuWrapper">
+                    <div class="icon-menu" id="digestiveIconMenu">
+                        <!-- Icon menu will be built dynamically from JSON -->
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="detail-title">Digestive System</h1>
+            <p class="detail-subtitle">The digestive system is responsible for breaking down the food we eat into nutrients that can be absorbed and utilized by the body.</p>
+            
+            <!-- Main Image -->
+            <div class="main-image-container">
+                <img id="digestiveMainImage" class="main-image" src="images/digestive/digestive_01.png" alt="Digestive System Detail">
+            </div>
+            
+            <!-- Text Menu -->
+            <div class="text-menu-container">
+                <button class="scroll-arrow left hidden" id="textScrollLeft" onclick="scrollTextMenu('left')">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="scroll-arrow right hidden" id="textScrollRight" onclick="scrollTextMenu('right')">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+                <div class="text-menu-wrapper" id="textMenuWrapper">
+                    <div class="text-menu" id="digestiveTextMenu">
+                        <div class="text-menu-item active" onclick="selectTextMenu(0)">Overview</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Content Section -->
+            <div class="content-section" id="digestiveContent">
+                <h3>Stomach Structure</h3>
+                <p>The stomach is a J-shaped muscular organ located in the upper left abdomen, serving as a temporary storage and mixing chamber for food. It consists of four main regions: the cardia (connects to esophagus), fundus (upper dome), body (main central region), and pylorus (connects to small intestine). The stomach wall has four layers: mucosa (innermost secretory lining), submucosa (connective tissue with blood vessels), muscularis (three layers of smooth muscle for churning), and serosa (outer protective covering). The stomach can expand to hold 1-1.5 liters of food and fluid. Its highly folded inner lining (rugae) allows for expansion and increases surface area for secretion and absorption.</p>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <a href="index.html" class="btn-primary-custom">Back to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script>
+        // Load digestive system data
+        async function loadDigestiveData() {
+            try {
+                const response = await fetch('data/digestive-data.json');
+                const data = await response.json();
+                SystemPage.init('digestive', data);
+                console.log('Digestive data loaded successfully');
+
+                buildIconMenu();
+                selectIcon(0);
+            } catch (error) {
+                console.error('Error loading digestive data:', error);
+            }
+        }
+
+        // Initialize page
+        async function initPage() {
+            await initSystemPage('digestive', loadDigestiveData);
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPage);
+        } else {
+            initPage();
+        }
+    </script>
+</body>
+</html>

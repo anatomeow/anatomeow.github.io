@@ -1,0 +1,141 @@
+{ "Overview": {
+    "iconImage": "book",
+    "largeImage": "images/nervous.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Nervous System",
+        "text": "The nervous system is the body’s main communication network, responsible for coordinating actions, processing sensory information, and maintaining internal balance. Its three core functions are: <b>Sensory Input</b> - detecting changes inside and outside the body. <b>Integration</b> - processing and interpreting that information. <b>Motor Output</b> - responding through muscle movement or gland secretion. This system allows everything from thought and memory to breathing and reflexes. It’s made up of two main types of cells: <b>neurons</b> and <b>glia</b>, and it’s divided into two major parts: the central nervous system <b>(CNS)</b> and the peripheral nervous system <b>(PNS)</b>"
+      }
+    ]
+  },
+  "Cells": {
+    "iconImage": "nerve",
+    "largeImage": "images/nervous/nervous_05.png",
+    "textMenuItems": ["Neurons", "Anatomy of A Neuron", "Excitatory vs. Inhibitory Signals", "Glial Cells"],
+    "content": [
+      {
+        "title": "Neurons",
+        "text": "Neurons are the fundamental units of the nervous system—specialized cells designed to transmit information rapidly throughout the body. Each neuron is built for communication and signal processing. "
+      },
+      {
+        "title": "Anatomy of A Neuron",
+        "text": "A typical neuron has three main structural parts: <ul> <li> <strong>Dendrites:</strong> These are short, branching projections that receive incoming signals from other neurons. Dendrites increase the surface area of a neuron, allowing it to receive input from multiple sources. </li> <li> <strong>Cell Body (Soma):</strong> This is the metabolic center of the neuron. It contains the nucleus, mitochondria, ribosomes, and other organelles. The soma integrates incoming signals from the dendrites. </li> <li> <strong>Axon:</strong> A long, thin fiber that conducts electrical impulses away from the cell body. Many axons are covered by a myelin sheath—a fatty insulating layer that allows impulses to travel faster. The sheath is segmented by Nodes of Ranvier, where the electrical signal is regenerated as it travels. </li> <li> <strong>Axon Terminals (Synaptic Boutons):</strong> These are the endpoints of the axon, where the neuron communicates with another cell. They release neurotransmitters into the synaptic cleft—a small gap between cells.</li> </ul>"
+      },
+      {
+        "title": "Excitatory vs. Inhibitory Signals",
+        "text": "Neurons communicate using chemical or electrical signals, which can either:<ul><li>Excite the receiving neuron (causing it to fire an action potential)</li><li>Inhibit the receiving neuron (making it less likely to fire)</li></ul> The balance of excitatory and inhibitory input determines whether a neuron sends its signal."
+      },
+      {
+        "title": "Glial Cells",
+        "text": "Glial cells, or neuroglia, are non-neuronal cells that support, protect, and nourish neurons. Though they don’t carry impulses, they are vital for maintaining homeostasis and keeping neurons functional. <br/>Types of Glial Cells<br/>In the CNS:<ul><li><b>Astrocytes</b>: Star-shaped cells that support neurons, regulate ions and neurotransmitters, form the blood-brain barrier, and repair tissue after injury.</li><li><b>Oligodendrocytes</b>: Produce myelin sheaths for axons in the CNS.</li><li><b>Migroglia</b>: Immune cells of the CNS that remove waste, debris, and pathogens through phagocytosis.</li><li><b>Ependymal Cells</b>: Line the ventricles of the brain and the central canal of the spinal cord, helping to circulate cerebrospinal fluid (CSF).</li></ul>In the PNS: <ul><li><b>Schwann Cells</b>: Myelinate axons in the PNS (unlike oligodendrocytes in the CNS)</li><li><b>Satellite Cells</b>: Surround neuronal cell bodies in peripheral ganglia and help regulate the external environment.</li></ul>"
+      }
+    ]
+  },
+  "Brain": {
+    "iconImage": "brain",
+    "largeImage": "images/nervous/nervous_03.png",
+    "textMenuItems": ["Central Nervous System", "The Brain", "Cerebral Hemispheres and Cortex"],
+    "content": [
+      {
+        "title": "Central Nervous System",
+        "text": "The CNS is made up of the brain and spinal cord. It acts as the body’s processing and control center. It receives sensory data, integrates the information, and produces motor responses.<br/>The CNS is often categorized into: <ul><li><b>Lower Centers</b>: spinal cord and brainstem, which manage reflexes and basic survival functions.</li><li><b>Higher Centers</b>: areas of the brain involved in conscious thought, learning, and emotion.</li></ul>"
+      },
+      {
+        "title": "The Brain",
+        "text": "The brain is the control center of the entire nervous system, responsible for interpreting sensory data, initiating movement, regulating internal functions, forming emotions, and enabling conscious thought. It is divided into structural regions, lobes, hemispheres, and functional zones, each playing unique roles in keeping the body and mind in balance."
+      },
+      {
+        "title": "Cerebral Hemispheres and Cortex",
+        "text": "The cerebrum is the largest part of the brain and is divided into the left and right cerebral hemispheres. Each hemisphere controls the opposite side of the body and is responsible for both shared and specialized tasks. The hemispheres are separated by the longitudinal fissure and connected by a thick bundle of nerve fibers called the corpus callosum, which allows for communication between both sides.<br/>The surface of the cerebrum is made up of gyri (ridges) and sulci (grooves), which increase the brain’s surface area and cognitive capacity."
+      }
+    ]
+  },
+  "Diencephalon": {
+    "iconImage": "brain-dience",
+    "largeImage": "images/nervous/nervous_01.png",
+    "textMenuItems": ["Lobes of the Cerebrum", "Diencephalon and Deep Brain Structures", "Brainstem", "Cerebellum" ],
+    "content": [
+      {
+        "title": "Lobes of the Cerebrum ",
+        "text": "<b>Frontal Lobe</b><ul><li>Located at the front of each hemisphere.</li></li>Responsible for decision-making, voluntary movement, personality, emotion, problem-solving, and speech production (via Broca’s area).</li><li>Contains the precentral gyrus, the primary motor cortex, which sends signals to skeletal muscles for movement.</li></ul><b>Parietal Lobe</b><ul><li>Located behind the frontal lobe, separated by the central sulcus.</li><li>Responsible for processing sensory input like touch, pressure, pain, and temperature.</li><li>Contains the postcentral gyrus, the primary somatosensory cortex, which receives sensory information from the body.</li></ul><b>Occipital Lobe</b><ul><li>Located at the back of the brain.</li><li>The primary visual processing center, interpreting signals from the eyes.</li></ul><b>Temporal Lobe</b><ul><li>Located on the sides of the brain, beneath the lateral sulcus.</li><li>Involved in hearing, memory, language comprehension (via Wernicke’s area), and emotional association.</li></ul><b>Limbic Lobe (of Limbic System)</b><ul><li>Not a distinct surface love but a group of structures deep within the brain, including the hippocampus, amygdala, cingulate gyrus, and parts of the thalamus and hypothalamus.</li><li>Involved in emotion, memory formation, motivation, and behavior.</li></ul>"
+      },
+      {
+        "title": "Diencephalon and Deep Brain Structures",
+        "text": "<b>Thalamus</b><ul><li>Located deep in the brain, above the brainstem.</li><li>Acts as the relay center for almost all sensory information going to the cerebral cortex.</li></ul><b>Pituitary Gland</b><ul><li>A small pea-sized endocrine gland located beneath the hypothalamus.</li><li>Secretes hormones that regulate growth, reproduction, metabolism, and stress.</li><li>Connected to the hypothalamus by the infundibulum.</li></ul>"
+      },
+      {
+        "title": "Brainstem",
+        "text": "The brainstem connects the cerebrum to the spinal cord and controls many vital, automatic functions such as breathing, heart rate, and digestion.<br/><b>Midbrain</b><ul><li>Controls visual and auditory reflexes, eye movements, and some motor coordination.</li></ul><b>Pons</b><ul><li>Lies between the midbrain and medulla oblongata.</li><li>Relays signals between the cerebrum and cerebellum.</li><li>Plays a role in breathing regulation, facial expression, and eye movements.</li></ul><b>Medulla Oblongata</b><ul><li> The lowest part of the brainstem, continuous with the spinal cord.</li><li> Controls vital autonomic functions like heart rate, blood pressure, and respiratory rhythm.</li><li>Also responsible for reflexes like coughing, sneezing, vomiting, and swallowing.</li></ul>"
+      },
+      {
+        "title": "Cerebellum",
+        "text": "Located beneath the occipital lobe and behind the brainstem, the cerebellum plays a key role in:<ul><li>Coordinating voluntary movements</li><li>Maintaining posture and balance</li><li>Fine-tuning motor activities</li></ul>It communicates with the rest of the brain through three pairs of cerebellar peduncles."
+      }
+    ]
+  },
+  "Protective Layers": {
+    "iconImage": "shield",
+    "largeImage": "images/nervous/nervous_02.png",
+    "textMenuItems": ["Overview","Meninges", "Venous Sinuses and Blood Supply"],
+    "content": [
+      {
+        "title": "Overview",
+        "text": "The brain is surrounded by multiple layers and spaces that protect, cushion, and support it. These include the meninges, vascular structures, and fluid-filled spaces."
+      },
+      {
+        "title": "Meninges (3 main layers)",
+        "text": "<ul><li><b>Pia Mater</b>: The thin, delicate inner layer that is tightly adhered to the brain’s surface. It contains small blood vessels that supply the brain tissue.</li><li><b>Arachnoid Mater</b>: The middle, web-like layer that suspends the brain in cerebrospinal fluid via strands called arachnoid trabeculae. It forms the subarachnoid space beneath it, filled with CSF.</li><li><b>Dura Mater</b>: The tough, outermost layer. It has two layers in the skull: periosteal (attached to the skull) and meningeal (closer to the brain). </li></ul>"
+      },
+      {
+        "title": "Venous Sinuses and Blood Supply",
+        "text": "<ul><li><b>Superior Sagittal Sinus</b>: A large vein running along the midline of the brain in the falx cerebri (a dural fold). It collects venous blood and CSF via arachnoid granulations.</li><li><b>Cerebral Veins</b>: Drain deoxygenated blood from the surface and deep parts of the brain into the dural venous sinuses.</li></ul>"
+      }
+    ]
+  },
+  "Cranial Nerves": {
+    "iconImage": "brain-nerves",
+    "largeImage": "images/nervous/nervous_04.png",
+    "textMenuItems": ["12 Parts"],
+    "content": [
+      {
+        "title": "12 Parts",
+        "text": "There are 12 pairs of cranial nerves, emerging directly from the brain (mostly from the brainstem), each with specific motor, sensory, or mixed functions</p><div class='table-responsive'> <table> <thead> <tr> <th>#</th> <th>Name</th> <th>Type</th><th>Function</th> </tr> </thead> <tbody> <tr> <td>I</td> <td>Olfactory</td> <td>Sensory</td> <td>Smell</td> </tr><tr> <td>II</td> <td>Optic</td> <td>Sensory</td> <td>Vision</td> </tr> <tr> <td>III</td> <td>Oculomotor</td><td>Motor</td> <td>Eye movement, pupil constriction</td> </tr> <tr> <td>IV</td> <td>Trochlear</td><td>Motor</td> <td>Eye movement (superior oblique muscle)</td> </tr> <tr> <td>V</td> <td>Trigeminal</td><td>Mixed</td> <td>Facial sensation, chewing</td> </tr> <tr> <td>VI</td> <td>Abducens</td> <td>Motor</td><td>Eye movement (lateral rectus)</td> </tr> <tr> <td>VII</td> <td>Facial</td> <td>Mixed</td> <td>Facial expression, taste (anterior 2/3 of tongue)</td> </tr> <tr> <td>VIII</td> <td>Vestibulocochlear</td> <td>Sensory</td><td>Hearing and balance</td> </tr> <tr> <td>IX</td> <td>Glossopharyngeal</td> <td>Mixed</td> <td>Taste (posterior 1/3), swallowing</td> </tr> <tr> <td>X</td> <td>Vagus</td> <td>Mixed</td> <td>Parasympathetic control of heart, lungs, digestion</td> </tr> <tr> <td>XI</td> <td>Accessory</td> <td>Motor</td> <td>Shoulder and neck muscles</td></tr> <tr> <td>XII</td> <td>Hypoglossal</td> <td>Motor</td> <td>Tongue movement</td> </tr> </tbody> </table></div>"
+      }
+    ]
+  },
+  "Spinal Cord": {
+    "iconImage": "spine",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Segments", "Internal Anatomy"],
+    "content": [
+      {
+        "title": "Spinal Cord Segments",
+        "text": "The spinal cord is a cylindrical bundle of nervous tissue that extends from the medulla oblongata down through the vertebral column. It acts as a relay center between the brain and the body while also controlling reflexes.<br/>The spinal cord is organized into 31 segments, each giving rise to a pair of spinal nerves.<ul><li><b>Cervical (C1-C8)</b> - neck, arms, diaphragm</li><li><b>Thoracic (T1-T12)</b> - upper trunk, intercostal muscles</li><li><b>Lumbar (L1-L5)</b> - lower back, legs</li><li><b>Sacral (S1-S5)</b> - pelvic organs, lower limbs</li><li><b>Coccygeal (Co1)</b> - tailbone area</li></ul>Each spinal nerve connects to the spinal cord via two roots: the dorsal root (sensory input) and the ventral (motor output) root."
+      },
+      {
+        "title": "Internal Anatomy",
+        "text": "The spinal cord has a butterfly-shaped core of gray matter surrounded by white matter.<br/><b>Gray Matter (Inner Core)</b><br/>The gray matter contains neuronal cell bodies, dendrites, and synapses. It’s divided into three main “horns”:<ul><li><b>Posterior (Dorsal) Horn</b>: Contains sensory (afferent) neurons. These receive incoming signals from sensory neurons in the body.</li><li><b>Lateral Horn</b> (only present in thoracic and upper lumbar segments): Contains autonomic motor neurons responsible for innervating smooth muscle, cardiac muscle, and glands.</li><li><b>Anterior (Ventral) Horn</b>: Contains motor (efferent) neurons that send signals to skeletal muscles. This is where somatic motor neurons reside.</li></ul>The central canal, a small tube filled with CSF, runs through the center of the gray matter.<br/><b>White Matter (Outer Layer)</b><br/>The white matter contains myelinated axons that form tracts traveling up and down the spinal cord. It is organized into columns (funiculi):<ul><li><b>Posterior (Dorsal) Columns</b>: Carry sensory (ascending) information, especially fine touch, vibration, and proprioception. Includes the fasciculus gracilis (lower body) and fasciculus cuneatus (upper body).</li><li><b>Lateral Columns</b>: contains both ascending sensory tracts and descending motor tracts. Includes important pathways like the spinothalamic tract (pain and temperature) and corticospinal tract (voluntary movement).</li><li><b>Anterior (Ventral) Columns</b>: Mostly contain motor (descending) tracts and some sensory tracts. Involved in voluntary and reflexive movement control."
+      }
+    ]
+  },
+  "Peripheral": {
+    "iconImage": "neurology",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview", "Sensory and Motor Nerves", "Divisions of the PNS"],
+    "content": [
+      {
+        "title": "Peripheral Nervous System (PNS)",
+        "text": "The PNS includes all nerves outside of the brain and spinal cord. It acts as the communication lines between the CNS and the rest of the body."
+      },
+      {
+        "title": "Sensory and Motor Nerves",
+        "text": "The PNS detects changes in the internal and external environment through sensory receptors, then transmits this data to the CNS via afferent (sensory) nerves. After integration in the CNS, efferent (motor) nerves carry signals back to muscles and glands to generate a response."
+      },
+      {
+        "title": "Divisions of the PNS",
+        "text": "The PNS is further divided into two branches: the somatic nervous system and the autonomic nervous system. The <b>somatic</b> nervous system controls voluntary movements of skeletal muscles and conveys sensory information from the skin, joints, and muscles. On the other hand, the <b>autonomic</b> nervous system regulates involuntary functions such as heart rate, digestion, blood vessel diameter, and respiratory rate. The autonomic nervous system itself has two branches: the sympathetic (activating, “fight or flight”) and parasympathetic (calming, “rest and digest”) systems."
+      }
+    ]
+  }
+}

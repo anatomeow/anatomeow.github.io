@@ -1,0 +1,88 @@
+{
+  "Overview": {
+    "iconImage": "book",
+    "largeImage": "images/respiratory.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Respiratory System",
+        "text": "The respiratory system’s primary function is to facilitate the exchange of gases—oxygen is brought into the body to support cellular metabolism, and carbon dioxide (a waste product of metabolism) is expelled. This exchange occurs between he external environment, the bloodstream, and ultimately between the bloodstream and body tissues. Beyond gas exchange, the respiratory system plays important secondary roles in pH homeostasis (maintaining acid-base balance), regulating body temperature through evaporative heat loss, producing sound for speech, detecting odors, and defending the body against inhaled pathogens and particles. <br/>The respiratory system is structurally and functionally divided in two primary ways: by anatomical location and by physiological role.<br/>Anatomically, the system is divided into: <ul><li><b>Upper Respiratory Tract</b>: includes all structures located outside the thoracic cavity—the nose, nasal cavity, paranasal sinuses, and pharynx. These components primarily function to condition incoming air by filtering, warming, and humidifying it before it reaches lower structures.</i><li><b>Lower Respiratory Tract</b>: includes structures within the thoracic cavity—the larynx, trachea, bronchial tree, and lungs. This region houses the major passageways through which air flows and where gas exchange occurs.</li></ul> Functionally, the system is divided into: <ul><li><b>Conducting zone</b>: encompasses all the airways that transport air without gas exchange. These include the nasal passages, pharynx, larynx, trachea, bronchi, and terminal bronchioles. Their roles are to conduct air efficiently, cleanse it of debris, humidify, and bring it to body temperature.</li><li> <b>Respiratory zone</b>: where gas exchange takes place. This includes the respiratory bronchioles, alveolar ducts, and alveoli, the tiny air sacs surrounded by capillaries where oxygen diffuses into the blood and carbon dioxide diffuses out.</li></ul> Air enters through the nostrils and moves sequentially through these components, ultimately culminating in the alveoli, where oxygen is transferred into the bloodstream and carbon dioxide is removed through the thin respiratory membrane formed by alveolar and capillary walls. "
+      }
+    ]
+  },
+  "Nasal Cavity": {
+    "iconImage": "nose",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Nasal Cavity and Paranasal Sinuses",
+        "text": "The nasal cavity is the initial chamber of the respiratory tract, located just behind the external nose. It functions primarily to prepare incoming air by warming, humidifying, and filtering it before it reaches the lower airways. Lined with respiratory mucosa and rich in vascularization, the nasal cavity also contributes to olfaction and vocal resonance. Its structure is optimized for both protection and efficiency in airflow conditioning. <ul><li><b>Nasal Septum</b>: Divides the nasal cavity into right and left halves. Anteriorly composed of hyaline cartilage and posteriorly of bone (perpendicular plate of the ethmoid and vomer), the septum ensures that airflow is evenly distributed between both chambers. </li><li><b>Respiratory Epithelium</b>: Ciliated pseudostratified columnar epithelium with goblet cell traps and moves debris-laden mucus toward the throat for removal.</li><li><b>Nasal Conchae (Turbinates)</b>: Three curved bones (superior, middle, inferior) that increase surface area and create turbulence to warm, humidify, and filter inhaled air. </li><li><b>Nasal Meatuses</b>: Grooves beneath each concha that serve as drainage pathways for sinuses and nasolacrimal duct.</li><li><b>Nasal Vestibule</b>: The most anterior portion of the nasal cavity, lined by stratified squamous epithelium and containing vibrissae (coarse nasal hairs), which trap large airborne particles. It acts as a physical barrier, especially effective against insects, dust, and pollen. </li><li><b>Olfactory Region</b>: Located high in the nasal cavity, it contains olfactory receptor neurons that detect smells and send signals to the brain via the olfactory nerve. </li><li><b>Paranasal Sinuses</b>: Air-filled spaces in the frontal, ethmoid, sphenoid, and maxillary bones. They lighten the skull, resonate voice, and produce mucus that drains into the nasal cavity. </li></ul>"
+      }
+    ]
+  },
+  "Pharynx": {
+    "iconImage": "throat",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview", "Nasopharynx", "Oropharynx", "Laryngopharynx", "Muscle Function"],
+    "content": [
+      {
+        "title": "Pharynx",
+        "text": "The pharynx is a muscular tube that connects the nose and mouth to the windpipe and esophagus. It plays a vital role in both the respiratory and digestive systems by allowing air to travel to the lungs and food to reach the stomach. It’s divided into three sections, each with a distinct function and lining types. "
+      },
+      {
+        "title": "Nasopharynx",
+        "text": "The upper part of the pharynx, located behind the nasal cavity. It handles only air and is lined with cells that have tiny hair-like structures (cilia) to help move particles trapped in mucus. This section contains the pharyngeal tonsils (also called adenoids) and the openings of the auditory tubes, which help balance pressure between the throat and middle ears. "
+      },
+      {
+        "title": "Oropharynx",
+        "text": " Found behind the mouth, this region carries both air and food. It’s lined with thicker, protective tissue since it deals with materials that can cause friction. It contains the palatine tonsils (on either side of the throat and the lingual tonsils (at the base of the tongue), both of which are part of the immune system. "
+      },
+      {
+        "title": "Laryngopharynx",
+        "text": " The lowest section of the pharynx sits just above the entrance to the windpipe and esophagus. It guides air into the larynx (voice box) and food into the esophagus. Like the oropharynx, it’s lined with protective tissue that can handle contact with solids and liquids. "
+      },
+      {
+        "title": "Muscle Function",
+        "text": "The walls of the pharynx contain muscles that help guide food down during swallowing and keep the airway open during breathing. These muscles work in coordination with the tongue, soft palate, and other structures. "
+      }
+    ]
+  },
+  "Larynx": {
+    "iconImage": "larynx",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview", "Vocal Folds"],
+    "content": [
+      {
+        "title": "Larynx",
+        "text": "The larynx, or voice box, is a short, cartilaginous structure that connects the pharynx to the trachea. It plays multiple important roles: keeping the airway open, protecting the lower respiratory tract during swallowing, and producing sound for speech. The larynx sits in the neck, just below the pharynx, and is supported by several pieces of cartilage.<br/><b>Main Cartilages</b><ul><li><b>Thyroid cartilage</b>: The largest cartilage, forming the front of the larynx. Its most noticeable feature is the laryngeal prominence, often called the “Adam’s apple”. </li><li><b>Cricoid cartilage</b>: A complete ring located just below the thyroid cartilage. It helps support the airway and provides attachment for muscles and ligaments.</li><li><b>Epiglottis</b>: A leaf-shaped flap made of flexible cartilage. It acts like a lid, folding down over the entrance to the larynx during swallowing to prevent food or liquid from entering the airway.</li></ul><b>Other Cartilages</b><ul><li><b>Arytenoid cartilages</b>: Paired and pyramid-shaped; they anchor the vocal cords and control their tension and movement. </li><li><b>Corniculate and cuneiform cartilages</b>: Smaller cartilages that support the structure of the upper larynx and help maintain its shape. </li></ul>"
+      },
+      {
+        "title": "Vocal Folds",
+        "text": "Located inside the larynx, the vocal folds (often called vocal cords) are flexible bands of muscle and connective tissue covered by a thin layer of mucosa. They play a crucial role in producing sound. When you speak or sing, air from the lungs passes through the space between them (the glottis), causing the folds to vibrate. The speed and tightness of this vibration control the pitch and tone of your voice. <ul><li><b>True vocal cords</b>: These are the main sound-producing structures. They can stretch, tighten, or relax to change pitch. When brought close together, air from the lungs makes them vibrate, creating sound waves. </li><li><b>False vocal cords (vestibular folds)</b>: Located just above the true vocal cords, these do not produce sound. Instead, they help protect the true vocal cords and assist in closing off the airway during swallowing or heavy straining.</li></ul>"
+      }
+    ]
+  },
+  "Trachea": {
+    "iconImage": "trachea",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Trachea",
+        "text": "The trachea, or windpipe, is a sturdy, flexible tube that connects the larynx to the bronchi of the lungs. It acts as the main airway, allowing air to travel in and out of the lungs. The trachea is about 10-12 cm (4-5 inches) long and sits in front of the esophagus, running down the neck and into the chest. <ul><li><b>Structure</b>: The trachea is supported by about 16-20 C-shaped rings of hyaline cartilage, which keep it open at all times so air can pass through easily. The open part of the ‘C’ faces the esophagus and is connected by a flexible muscle (trachealis muscle) that allows the trachea to slightly collapse inward during swallowing, making room for food in the esophagus. </li><li><b>Lining</b>: The inside of the trachea is lined with ciliated pseudostratified columnar epithelium and mucus-producing goblet cells. Together, these structures form the mucociliary escalator, which traps dust, pathogens, and other particles and moves them upward toward the throat to be coughed out or swallowed. </li><li><b>Function</b>: <ul><li>Provides a clear and stable airway between the larynx and the lungs.</li><li>Filters, warms, and humidifies incoming air before it reaches the lungs.</li><li>Protects the lower respiratory tract by catching harmful substances before they reach the bronchi and alveoli.</li></ul></li><li><b>Bifurcation (Carina)</b>: At the lower end, the trachea splits into the right and left primary bronchi at the ridge called the carina. This area is extremely sensitive—if something touches it, it triggers a powerful cough reflex to protect the lungs. </li></ul>"
+      }
+    ]
+  },
+  "Bronchial Tree": {
+    "iconImage": "lungs",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview"],
+    "content": [
+      {
+        "title": "Bronchial Tree",
+        "text": "The bronchial tree is a branching system of airways that carries air from the trachea deep into the lungs. As the branches get smaller, their walls become thinner and more flexible, and their function shifts from just conducting air to allowing gas exchange. The bronchial tree is divided into several levels: <ul><li><b>Primary (Main) Bronchi</b>: The trachea splits into two main bronchi—one for each lung. The right main bronchus is wider, shorter and more vertical, which is why inhaled objects are more likely to get stuck here. The left main bronchus is narrower and more horizontal due to the heart’s position. </li><li><b>Secondary (Lobar) Bronchi</b>: Each main bronchus divides into secondary bronchi, one for each lung lobe—three on the right (upper, middle, lower) and two on the left (upper and lower). </li><li><b>Tertiary (Segmental) Bronchi</b>: These branch from the lobar bronchi and supply air to smaller regions called bronchopulmonary segments. Each lung has about 8-10 of these segments, which are structurally and functionally independent—important insurgencies where only part of the lung needs to be removed. </li><li><b> Bronchioles</b>: Tertiary bronchi continue branching into smaller and smaller tubes called bronchioles, which are less than 1 mm wide and lack cartilage in their walls. Instead, they are surrounded by smooth muscle, allowing them to expand or contract based on the body’s needs. </li><li><b>Terminal Bronchioles</b>: These are the last part of the conducting airway. They don’t participate in gas exchange but deliver air to the respiratory portion of the lungs. </li><li><b>Respiratory Bronchioles</b>: Mark the beginning of the respiratory zone, where gas exchange begins. They have a few scattered alveoli in their walls and lead into more specialized structures. </li></ul>"
+      }
+    ]
+  }
+}
