@@ -35,8 +35,19 @@
             <p class="detail-subtitle">The circulatory system is the body’s internal transport network, responsible for moving blood, nutrients, oxygen, carbon dioxide, hormones, and other essential substances to and from cells.</p>
                         
             <!-- Main Image -->
-            <div class="main-image-container">
-                <img id="circulatoryMainImage" class="main-image" src="images/circulatory.PNG" alt="Circulatory System Detail">
+            <div class="main-image-container" id="imageContainer">
+                <img id="circulatoryMainImage" class="main-image" src="images/circulatory.png" alt="Circulatory System Detail">
+                <div class="zoom-controls" id="zoomControls">
+                    <button class="zoom-btn zoom-in-btn" id="zoomInBtn" onclick="zoomIn()">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <button class="zoom-btn zoom-out-btn" id="zoomOutBtn" onclick="zoomOut()">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                    <button class="zoom-btn reset-btn" id="resetZoomBtn" onclick="resetZoom()">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                </div>
             </div>
             
             <!-- Text Menu -->
@@ -56,8 +67,6 @@
             
             <!-- Content Section -->
             <div class="content-section" id="circulatoryContent">
-                <h3>Heart Overview</h3>
-                <p>The heart is a powerful muscular organ about the size of a fist, located slightly left of center in the chest. It consists of four chambers, cardiac muscle tissue (myocardium), and specialized electrical conduction pathways. The heart wall has three layers: the outer epicardium, the thick muscular myocardium, and the inner endocardium. The heart beats approximately 100,000 times per day, pumping about 2,000 gallons of blood through the circulatory system, delivering oxygen and nutrients to every cell in the body.</p>
             </div>
             
             <!-- Action Buttons -->
@@ -91,6 +100,9 @@
         // Initialize page
         async function initPage() {
             await initSystemPage('circulatory', loadCirculatoryData);
+
+            // Setup blank image detection (hides zoom controls for blank.png)
+            setupBlankImageDetection('circulatory');
         }
 
         if (document.readyState === 'loading') {
@@ -98,6 +110,9 @@
         } else {
             initPage();
         }
+
+        // Initialize zoom functionality
+        initImageZoom('circulatory');
     </script>
 </body>
 </html>

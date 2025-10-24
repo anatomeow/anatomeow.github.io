@@ -35,8 +35,19 @@
             <p class="detail-subtitle">The nervous system is the body’s main communication network, responsible for coordinating actions, processing sensory information, and maintaining internal balance.</p>
                         
             <!-- Main Image -->
-            <div class="main-image-container">
-                <img id="nervousMainImage" class="main-image" src="images/nervous/nervous_05.PNG" alt="Nervous System Detail">
+            <div class="main-image-container" id="imageContainer">
+                <img id="nervousMainImage" class="main-image" src="images/nervous.png" alt="Nervous System Detail">
+                <div class="zoom-controls" id="zoomControls">
+                    <button class="zoom-btn zoom-in-btn" id="zoomInBtn" onclick="zoomIn()">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <button class="zoom-btn zoom-out-btn" id="zoomOutBtn" onclick="zoomOut()">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                    <button class="zoom-btn reset-btn" id="resetZoomBtn" onclick="resetZoom()">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                </div>
             </div>
             
             <!-- Text Menu -->
@@ -56,8 +67,6 @@
             
             <!-- Content Section -->
             <div class="content-section" id="nervousContent">
-                <h3>Brain Overview</h3>
-                <p>The brain is the most complex organ in the human body, weighing about 3 pounds and containing approximately 86 billion neurons. It serves as the command center for the entire nervous system, processing sensory information, controlling motor functions, and enabling higher-level cognitive processes such as thinking, learning, and memory. The brain is divided into major regions including the cerebrum, cerebellum, and brainstem, each responsible for specific functions essential for life.</p>
             </div>
             
             <!-- Action Buttons -->
@@ -91,6 +100,9 @@
         // Initialize page
         async function initPage() {
             await initSystemPage('nervous', loadNervousData);
+
+            // Setup blank image detection (hides zoom controls for blank.png)
+            setupBlankImageDetection('nervous');
         }
 
         if (document.readyState === 'loading') {
@@ -98,6 +110,9 @@
         } else {
             initPage();
         }
+
+        // Initialize zoom functionality
+        initImageZoom('nervous');
     </script>
 </body>
 </html>

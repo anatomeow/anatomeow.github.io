@@ -5,7 +5,7 @@
     "content": [
       {
         "title": "Nervous System",
-        "text": "The nervous system is the body’s main communication network, responsible for coordinating actions, processing sensory information, and maintaining internal balance. Its three core functions are: <b>Sensory Input</b> - detecting changes inside and outside the body. <b>Integration</b> - processing and interpreting that information. <b>Motor Output</b> - responding through muscle movement or gland secretion. This system allows everything from thought and memory to breathing and reflexes. It’s made up of two main types of cells: <b>neurons</b> and <b>glia</b>, and it’s divided into two major parts: the central nervous system <b>(CNS)</b> and the peripheral nervous system <b>(PNS)</b>"
+        "text": "The nervous system is the body’s main communication network, responsible for coordinating actions, processing sensory information, and maintaining internal balance. Its three core functions are: Sensory Input - detecting changes inside and outside the body. Integration - processing and interpreting that information. Motor Output - responding through muscle movement or gland secretion. This system allows everything from thought and memory to breathing and reflexes. It’s made up of two main types of cells: neurons and glia, and it’s divided into two major parts: the central nervous system (CNS) and the peripheral nervous system (PNS)"
       }
     ]
   },
@@ -28,7 +28,7 @@
       },
       {
         "title": "Glial Cells",
-        "text": "Glial cells, or neuroglia, are non-neuronal cells that support, protect, and nourish neurons. Though they don’t carry impulses, they are vital for maintaining homeostasis and keeping neurons functional. <br/>Types of Glial Cells<br/>In the CNS:<ul><li><b>Astrocytes</b>: Star-shaped cells that support neurons, regulate ions and neurotransmitters, form the blood-brain barrier, and repair tissue after injury.</li><li><b>Oligodendrocytes</b>: Produce myelin sheaths for axons in the CNS.</li><li><b>Migroglia</b>: Immune cells of the CNS that remove waste, debris, and pathogens through phagocytosis.</li><li><b>Ependymal Cells</b>: Line the ventricles of the brain and the central canal of the spinal cord, helping to circulate cerebrospinal fluid (CSF).</li></ul>In the PNS: <ul><li><b>Schwann Cells</b>: Myelinate axons in the PNS (unlike oligodendrocytes in the CNS)</li><li><b>Satellite Cells</b>: Surround neuronal cell bodies in peripheral ganglia and help regulate the external environment.</li></ul>"
+        "text": "Glial cells, or neuroglia, are non-neuronal cells that support, protect, and nourish neurons. Though they don’t carry impulses, they are vital for maintaining homeostasis and keeping neurons functional. <br/>Types of Glial Cells<br/><b>In the CNS</b>:<ul><li>Astrocytes: Star-shaped cells that support neurons, regulate ions and neurotransmitters, form the blood-brain barrier, and repair tissue after injury.</li><li>Oligodendrocytes: Produce myelin sheaths for axons in the CNS.</li><li>Migroglia: Immune cells of the CNS that remove waste, debris, and pathogens through phagocytosis.</li><li>Ependymal Cells: Line the ventricles of the brain and the central canal of the spinal cord, helping to circulate cerebrospinal fluid (CSF).</li></ul><b>In the PNS</b>: <ul><li>Schwann Cells: Myelinate axons in the PNS (unlike oligodendrocytes in the CNS)</li><li>Satellite Cells: Surround neuronal cell bodies in peripheral ganglia and help regulate the external environment.</li></ul>"
       }
     ]
   },

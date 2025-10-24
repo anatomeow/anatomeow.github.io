@@ -35,8 +35,19 @@
             <p class="detail-subtitle">The respiratory system’s primary function is to facilitate the exchange of gases—oxygen is brought into the body to support cellular metabolism, and carbon dioxide.</p>
                         
             <!-- Main Image -->
-            <div class="main-image-container">
-                <img id="respiratoryMainImage" class="main-image" src="images/respiratory.PNG" alt="Respiratory System Detail">
+            <div class="main-image-container" id="imageContainer">
+                <img id="respiratoryMainImage" class="main-image" src="images/respiratory.png" alt="Respiratory System Detail">
+                <div class="zoom-controls" id="zoomControls">
+                    <button class="zoom-btn zoom-in-btn" id="zoomInBtn" onclick="zoomIn()">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <button class="zoom-btn zoom-out-btn" id="zoomOutBtn" onclick="zoomOut()">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                    <button class="zoom-btn reset-btn" id="resetZoomBtn" onclick="resetZoom()">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                </div>
             </div>
             
             <!-- Text Menu -->
@@ -56,8 +67,6 @@
             
             <!-- Content Section -->
             <div class="content-section" id="respiratoryContent">
-                <h3>Lung Structure</h3>
-                <p>The lungs are paired organs located in the thoracic cavity, protected by the rib cage. Each lung is cone-shaped with an apex at the top and a base resting on the diaphragm. The right lung is slightly larger and divided into three lobes, while the left lung has two lobes to accommodate the heart. The lungs are spongy and elastic, containing airways (bronchi and bronchioles) that branch like a tree, ending in tiny air sacs called alveoli. The entire respiratory surface area of the lungs is approximately 70 square meters—about the size of a tennis court—maximizing the area available for gas exchange.</p>
             </div>
             
             <!-- Action Buttons -->
@@ -91,6 +100,9 @@
         // Initialize page
         async function initPage() {
             await initSystemPage('respiratory', loadRespiratoryData);
+
+            // Setup blank image detection (hides zoom controls for blank.png)
+            setupBlankImageDetection('respiratory');
         }
 
         if (document.readyState === 'loading') {
@@ -98,6 +110,9 @@
         } else {
             initPage();
         }
+
+        // Initialize zoom functionality
+        initImageZoom('respiratory');
     </script>
 </body>
 </html>

@@ -10,52 +10,6 @@
       }
     ]
   },
-  "Alimentary Canal": {
-    "iconImage": "mouth",
-    "largeImage": "images/blank.png",
-    "textMenuItems": ["Mouth and Oral Cavity", "Teeth and Mastication", "Tongue and Taste", "Salivary Glands and Saliva", "Lips, Cheeks, and Oral Cavity Boundaries"],
-    "content": [
-      {
-        "title": "Mouth and Oral Cavity",
-        "text": "The oral cavity is the first section of the digestive system and plays a critical role in mechanical digestion, chemical digestion, taste, speech, and swallowing. It is made up of several components that work together to begin the digestive process. "
-      },
-      {
-        "title": "Teeth and Mastication",
-        "text": "The teeth are responsible for breaking food into smaller pieces through the process of mastication (chewing). Adults typically have 32 teeth, divided into: <ul><li><b>Incisors</b>: cutting </li><li><b>Canines</b>: testing </li><li><b>Premolars and molars</b>: grinding </li></ul>Teeth are anchored in the maxilla and mandible bones. Their roles in physically processing food are essential for increasing surface area and preparing food for enzymatic digestion."
-      },
-      {
-        "title": "Tongue and Taste",
-        "text": "The tongue is a muscular organ that assists in moving food during chewing and pushing it toward the back of the mouth for swallowing. But beyond motion, the tongue is also a sensory hub. Its surface is covered in different types of papillae, many of which house taste buds capable of detecting sweet, salty, sour, bitter, and umami flavors. The underside and base of the tongue include the lingual tonsils, part of the immune system. "
-      },
-      {
-        "title": "Salivary Glands and Saliva",
-        "text": "Three major salivary glands produce saliva, which lubricates food and begins chemical digestion: <ul><li><b>Parotid</b> glands: Located near the cheeks, these glands secrete watery saliva rich in amylase, an enzyme that begins breaking down carbohydrates. </li><li><b>Submandibular</b> glands: Located under the jaw, they produce a mix of watery and mucus-rich saliva. </li><li><b>Sublingual</b> glands: Located beneath the tongue, they primarily secrete mucus. </li></ul>Saliva lubricates food, making it easier to swallow, and contains enzymes and antibacterial substances such as:  <ul><li><b>Salivary amylase</b>: breaks down starch </li><li><b>Lysozyme</b>: antibacterial enzyme </li><li><b>Mucins</b>: lubrication </li></ul>"
-      },
-      {
-        "title": "Lips, Cheeks, and Oral Cavity Boundaries",
-        "text": "The lips and cheeks help keep food inside the mouth while chewing and assist with speech and expression. The inner cheek contains buccinator muscles, which help guide food onto the chewing surfaces. <br/> The palate forms the roof of the mouth. The hard palate, made of bone, gives a firm surface for the tongue to press food against. Behind it is the soft palate, which is muscular and flexible. During swallowing, the soft palate rises to block the nasal passage and prevent food from entering the nose. The uvula, which hangs from the soft palate, helps with this function."
-      }
-    ]
-  },
-  "Pharynx and Esophagus": {
-    "iconImage": "pharynx",
-    "largeImage": "images/blank.png",
-    "textMenuItems": ["Overview", "Pharynx", "Esophagus"],
-    "content": [
-      {
-        "title": "Overview",
-        "text": "After food leaves the mouth, it enters the pharynx, a muscular tube that serves as a shared passageway for both the respiratory and digestive systems. From there, it passes into the esophagus, which delivers it to the stomach. "
-      },
-      {
-        "title": "Pharynx",
-        "text": "The pharynx is divided into three sections: the nasopharynx, oropharynx, and laryngopharynx. For digestion, the oropharynx and laryngopharynx are most relevant.<ul><li>The oropharynx lies behind the mouth and receives the bolus (chewed food) after it is pushed backward by the tongue.</li><li> As the bolus continues downward, it enters the laryngopharynx, located just above the entrance to the esophagus and the larynx.</li></ul> During swallowing, the epiglottis—a flap of cartilage—folds down to cover the trachea, preventing food or liquid from entering the airway. This reflex action ensures that food is directed safely into the digestive tract, rather than into the lungs. "
-      },
-      {
-        "title": "Esophagus",
-        "text": "The esophagus is a muscular tube about 25 centimeters (10 inches) long, extending from the pharynx to the stomach. It passes behind the trachea and heart and enters the abdominal cavity through the diaphragm at the <b>esophageal hiatus</b>. <br/> The esophagus doesn’t rely on gravity alone to move food. Instead, it uses peristalsis—a series of coordinated, wave-like muscle contractions that propel the bolus downward. These contractions are involuntary and ensure that food reaches the stomach, regardless of the body's position. <br/> At the lower end of the esophagus is the lower esophageal sphincter (LES), sometimes called the cardiac sphincter. This ring of smooth muscle stays closed most of the time, opening only when food needs to enter the stomach. Its role is to prevent stomach acid and contents from flowing backward—a process known as acid reflux when it malfunctions. "
-      }
-    ]
-  },
   "Stomach": {
     "iconImage": "stomach",
     "largeImage": "images/digestive/digestive_06.png",
@@ -112,6 +66,52 @@
       {
         "title": "Accessory Organs of Digestion - Pancreas",
         "text": "The pancreas is an elongated, leaf-shaped gland located behind the stomach. It has both endocrine and exocrine functions. <ul><li><b>Digestive (Exocrine) Function</b>: The majority of the pancreas is made up of acinar cells, which produce digestive enzymes that break down proteins, fats, and carbohydrates. These enzymes are carried by the pancreatic duct, which joins the common bile duct and empties into the duodenum. </li><li><b>Endocrine Function</b>: Scattered throughout the pancreas are clusters called pancreatic islets (Islets of Langerhans), which secrete hormones like insulin and glucagon into the bloodstream to regulate blood sugar levels. </li><li><b>Blood Supply and Adjacent Structures</b>: The splenic artery, a branch of the celiac trunk, supplies much of the pancreas with oxygenated blood. The pancreas lies near the spleen, which is often included in anatomical discussions because of its proximity. "
+      }
+    ]
+  },
+  "Alimentary Canal": {
+    "iconImage": "mouth",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Mouth and Oral Cavity", "Teeth and Mastication", "Tongue and Taste", "Salivary Glands and Saliva", "Lips, Cheeks, and Oral Cavity Boundaries"],
+    "content": [
+      {
+        "title": "Mouth and Oral Cavity",
+        "text": "The oral cavity is the first section of the digestive system and plays a critical role in mechanical digestion, chemical digestion, taste, speech, and swallowing. It is made up of several components that work together to begin the digestive process. "
+      },
+      {
+        "title": "Teeth and Mastication",
+        "text": "The teeth are responsible for breaking food into smaller pieces through the process of mastication (chewing). Adults typically have 32 teeth, divided into: <ul><li><b>Incisors</b>: cutting </li><li><b>Canines</b>: testing </li><li><b>Premolars and molars</b>: grinding </li></ul>Teeth are anchored in the maxilla and mandible bones. Their roles in physically processing food are essential for increasing surface area and preparing food for enzymatic digestion."
+      },
+      {
+        "title": "Tongue and Taste",
+        "text": "The tongue is a muscular organ that assists in moving food during chewing and pushing it toward the back of the mouth for swallowing. But beyond motion, the tongue is also a sensory hub. Its surface is covered in different types of papillae, many of which house taste buds capable of detecting sweet, salty, sour, bitter, and umami flavors. The underside and base of the tongue include the lingual tonsils, part of the immune system. "
+      },
+      {
+        "title": "Salivary Glands and Saliva",
+        "text": "Three major salivary glands produce saliva, which lubricates food and begins chemical digestion: <ul><li><b>Parotid</b> glands: Located near the cheeks, these glands secrete watery saliva rich in amylase, an enzyme that begins breaking down carbohydrates. </li><li><b>Submandibular</b> glands: Located under the jaw, they produce a mix of watery and mucus-rich saliva. </li><li><b>Sublingual</b> glands: Located beneath the tongue, they primarily secrete mucus. </li></ul>Saliva lubricates food, making it easier to swallow, and contains enzymes and antibacterial substances such as:  <ul><li><b>Salivary amylase</b>: breaks down starch </li><li><b>Lysozyme</b>: antibacterial enzyme </li><li><b>Mucins</b>: lubrication </li></ul>"
+      },
+      {
+        "title": "Lips, Cheeks, and Oral Cavity Boundaries",
+        "text": "The lips and cheeks help keep food inside the mouth while chewing and assist with speech and expression. The inner cheek contains buccinator muscles, which help guide food onto the chewing surfaces. <br/> The palate forms the roof of the mouth. The hard palate, made of bone, gives a firm surface for the tongue to press food against. Behind it is the soft palate, which is muscular and flexible. During swallowing, the soft palate rises to block the nasal passage and prevent food from entering the nose. The uvula, which hangs from the soft palate, helps with this function."
+      }
+    ]
+  },
+  "Pharynx and Esophagus": {
+    "iconImage": "pharynx",
+    "largeImage": "images/blank.png",
+    "textMenuItems": ["Overview", "Pharynx", "Esophagus"],
+    "content": [
+      {
+        "title": "Overview",
+        "text": "After food leaves the mouth, it enters the pharynx, a muscular tube that serves as a shared passageway for both the respiratory and digestive systems. From there, it passes into the esophagus, which delivers it to the stomach. "
+      },
+      {
+        "title": "Pharynx",
+        "text": "The pharynx is divided into three sections: the nasopharynx, oropharynx, and laryngopharynx. For digestion, the oropharynx and laryngopharynx are most relevant.<ul><li>The oropharynx lies behind the mouth and receives the bolus (chewed food) after it is pushed backward by the tongue.</li><li> As the bolus continues downward, it enters the laryngopharynx, located just above the entrance to the esophagus and the larynx.</li></ul> During swallowing, the epiglottis—a flap of cartilage—folds down to cover the trachea, preventing food or liquid from entering the airway. This reflex action ensures that food is directed safely into the digestive tract, rather than into the lungs. "
+      },
+      {
+        "title": "Esophagus",
+        "text": "The esophagus is a muscular tube about 25 centimeters (10 inches) long, extending from the pharynx to the stomach. It passes behind the trachea and heart and enters the abdominal cavity through the diaphragm at the <b>esophageal hiatus</b>. <br/> The esophagus doesn’t rely on gravity alone to move food. Instead, it uses peristalsis—a series of coordinated, wave-like muscle contractions that propel the bolus downward. These contractions are involuntary and ensure that food reaches the stomach, regardless of the body's position. <br/> At the lower end of the esophagus is the lower esophageal sphincter (LES), sometimes called the cardiac sphincter. This ring of smooth muscle stays closed most of the time, opening only when food needs to enter the stomach. Its role is to prevent stomach acid and contents from flowing backward—a process known as acid reflux when it malfunctions. "
       }
     ]
   }

@@ -35,8 +35,19 @@
             <p class="detail-subtitle">The body's movement engine, providing strength and motion</p>
             
             <!-- Main Image -->
-            <div class="main-image-container">
-                <img id="muscularMainImage" class="main-image" src="images/muscular.PNG" alt="Muscular System Detail">
+            <div class="main-image-container" id="imageContainer">
+                <img id="muscularMainImage" class="main-image" src="images/muscular.png" alt="Muscular System Detail">
+                <div class="zoom-controls" id="zoomControls">
+                    <button class="zoom-btn zoom-in-btn" id="zoomInBtn" onclick="zoomIn()">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <button class="zoom-btn zoom-out-btn" id="zoomOutBtn" onclick="zoomOut()">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                    <button class="zoom-btn reset-btn" id="resetZoomBtn" onclick="resetZoom()">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                </div>
             </div>
             
             <!-- Text Menu -->
@@ -56,8 +67,6 @@
             
             <!-- Content Section -->
             <div class="content-section" id="muscularContent">
-                <h3>Muscle Overview</h3>
-                <p>The muscular system consists of over 600 muscles that comprise approximately 40% of total body weight. These muscles work in coordinated groups to produce movement, maintain posture, and generate heat. The muscular system is divided into three types: skeletal muscles (voluntary movement), smooth muscles (internal organs), and cardiac muscle (heart). Skeletal muscles attach to bones via tendons and work in opposing pairs to create controlled, precise movements throughout the body.</p>
             </div>
             
             <!-- Action Buttons -->
@@ -91,6 +100,9 @@
         // Initialize page
         async function initPage() {
             await initSystemPage('muscular', loadMuscularData);
+
+            // Setup blank image detection (hides zoom controls for blank.png)
+            setupBlankImageDetection('muscular');
         }
 
         if (document.readyState === 'loading') {
@@ -98,6 +110,9 @@
         } else {
             initPage();
         }
+
+        // Initialize zoom functionality
+        initImageZoom('muscular');
     </script>
 </body>
 </html>

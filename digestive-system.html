@@ -35,8 +35,19 @@
             <p class="detail-subtitle">The digestive system is responsible for breaking down the food we eat into nutrients that can be absorbed and utilized by the body.</p>
             
             <!-- Main Image -->
-            <div class="main-image-container">
-                <img id="digestiveMainImage" class="main-image" src="images/digestive/digestive_01.png" alt="Digestive System Detail">
+            <div class="main-image-container" id="imageContainer">
+                <img id="digestiveMainImage" class="main-image" src="images/digestive.png" alt="Digestive System Detail">
+                <div class="zoom-controls" id="zoomControls">
+                    <button class="zoom-btn zoom-in-btn" id="zoomInBtn" onclick="zoomIn()">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <button class="zoom-btn zoom-out-btn" id="zoomOutBtn" onclick="zoomOut()">
+                        <i class="bi bi-dash"></i>
+                    </button>
+                    <button class="zoom-btn reset-btn" id="resetZoomBtn" onclick="resetZoom()">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                </div>
             </div>
             
             <!-- Text Menu -->
@@ -56,8 +67,6 @@
             
             <!-- Content Section -->
             <div class="content-section" id="digestiveContent">
-                <h3>Stomach Structure</h3>
-                <p>The stomach is a J-shaped muscular organ located in the upper left abdomen, serving as a temporary storage and mixing chamber for food. It consists of four main regions: the cardia (connects to esophagus), fundus (upper dome), body (main central region), and pylorus (connects to small intestine). The stomach wall has four layers: mucosa (innermost secretory lining), submucosa (connective tissue with blood vessels), muscularis (three layers of smooth muscle for churning), and serosa (outer protective covering). The stomach can expand to hold 1-1.5 liters of food and fluid. Its highly folded inner lining (rugae) allows for expansion and increases surface area for secretion and absorption.</p>
             </div>
             
             <!-- Action Buttons -->
@@ -91,6 +100,9 @@
         // Initialize page
         async function initPage() {
             await initSystemPage('digestive', loadDigestiveData);
+
+            // Setup blank image detection (hides zoom controls for blank.png)
+            setupBlankImageDetection('digestive');
         }
 
         if (document.readyState === 'loading') {
@@ -98,6 +110,9 @@
         } else {
             initPage();
         }
+
+        // Initialize zoom functionality
+        initImageZoom('digestive');
     </script>
 </body>
 </html>
