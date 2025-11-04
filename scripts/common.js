@@ -133,7 +133,7 @@ function selectIcon(index) {
 
     const firstContent = sectionData.content[0];
     document.getElementById(`${SystemPage.name}Content`).innerHTML = `
-        <h3>${firstContent.title}</h3>
+        <h4>${firstContent.title}</h4>
         <p>${firstContent.text}</p>
     `;
 
